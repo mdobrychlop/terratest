@@ -247,7 +247,7 @@ def intervention_loop_console(
             print("Checking holding group (prepare)")
             checked_holdings.add(row["gsa_hol_id"])
             holding_group = parcel_df[parcel_df["gsa_hol_id"] == row["gsa_hol_id"]]
-            print(f"Checking holding group (check {row["gsa_hol_id"]} - {len(holding_group)} rows)")
+            print(f"Checking holding group (check {row['gsa_hol_id']} - {len(holding_group)} rows)")
             buckets, added_rows, added_holdings = check_holding_group(
                 holding_group, 
                 buckets, 
