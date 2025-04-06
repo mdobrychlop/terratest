@@ -1,0 +1,17 @@
+*.xlsx
+*.csv
+*.shp
+tests/
+*.pickle
+log.txt
+test_notebook.ipynb
+compare_outputs.py
+anonymizer.py
+test_tools.py
+.vscode/
+testing_notebook.ipynb
+run_bulk_analysis.py
+march2025_analysis.py
+combine_rankings.py
+report_analysis.py
+analytics/
